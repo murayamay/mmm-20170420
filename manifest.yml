@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mmm-20170420
+  host: mmm-20170420
+  disk_quota: 1024M
+  services:
+  - mmm-20170420-cloudantNoSQLDB
+  - availability-monitoring-auto
